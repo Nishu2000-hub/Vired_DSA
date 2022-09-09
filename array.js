@@ -1,8 +1,9 @@
 function number(arr){
-    for (let i=1;i<=arr.length;i++){
-        if (arr.length==0){
+     if (arr.length==0){
             return "empty array"
         }
+    for (let i=1;i<=arr.length;i++){
+       
         if (arr[i-1]!==i){
             return i;
             
